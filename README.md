@@ -15,7 +15,7 @@ Este projeto apresenta uma implementação eficiente de uma grid interativa com 
 ## Tecnologias Utilizadas
 
 - React
-- MaterialReactTable
+- MaterialReactTable - https://www.material-react-table.com/
 
 ## Como Executar o Projeto
 
