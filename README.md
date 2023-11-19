@@ -4,6 +4,8 @@
 
 Este projeto apresenta uma implementação eficiente de uma grid interativa com **MaterialReactTable** no React. Projetado para alto desempenho e escalabilidade, este componente utiliza técnicas de virtualização e overscan, tornando-o excepcionalmente apto para manipular extensos conjuntos de dados. Com capacidade para lidar com grandes volumes de dados, o **MaterialReactTable** é ideal para aplicações web modernas e ricas em dados.
 
+![image](https://github.com/Brunapupo/material-react-table/assets/112135250/81f5eacc-de54-477e-9ef1-4c33fce53c4f)
+
 ## Características Principais
 
 - **Virtualização e Overscan**: Utiliza a virtualização de linhas e a funcionalidade de overscan para processar grandes volumes de dados de forma eficiente, assegurando uma experiência de usuário suave e responsiva.
