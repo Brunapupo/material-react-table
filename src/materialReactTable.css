@@ -1,0 +1,39 @@
+.header {
+    background-color: #d2e6e4;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do header */
+  }
+  
+  .cabecalho__menu ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre logo e título */
+  }
+  
+  .titulo__tabela{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+  }
+  .titulo__logo{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 70px;
+  }
+  .header-logo {
+    height: 100px;
+    margin-left: 20px;
+  }
+  
+  .titulo {
+    color: black;
+    text-align: center;
+    margin-left: 60px;
+  }
+  

@@ -12,13 +12,14 @@
 }
 
 .App-title-container {
-  padding: 24px;
+  padding: 44px;
   align-items: center;
 }
 
 .App-logo {
   height: 80px;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {

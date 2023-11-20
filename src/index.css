@@ -3,7 +3,7 @@ body {
   background-color: #f8eeea;
   font-family: Oswald;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 34px;
 }
 
 h1, h2, h3 {
@@ -11,5 +11,5 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-  margin: 0;
+  margin: 24px;
 }

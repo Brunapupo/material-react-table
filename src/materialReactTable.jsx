@@ -3,6 +3,8 @@ import { MaterialReactTable, useMaterialReactTable } from 'material-react-table'
 import { makeData } from './makeData';
 import logo from './logo.svg';
 import { MRT_Localization_PT_BR } from "material-react-table/locales/pt-BR";
+import './materialReactTable.css';
+import brasao from './brasao.png';
 
 const Example = () => {
   const columns = useMemo(
@@ -85,17 +87,22 @@ const Example = () => {
   }, [sorting]);
 
   return (
-   <div>
-    <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Tabela Simples
-        <div>
-        Material React Table
-        </div>
-        <div>
-          
-        </div>
-      </p>
+   <div> 
+      <div className='header'>
+        <header className="cabecalho">
+          <nav className='cabecalho__menu'>
+            <ul>
+              <img src={brasao} className='header-logo' alt="brasao" />
+              <p className='titulo'> Bruna Dias Pupo<br/> Universidade Federal de Santa Catarina - Ciência da Informação <br/>Trabalho de conclusão da disciplina Gestão da informação</p>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+      <div className='titulo__tabela'>
+        <p className='titulo__logo'> Material React Table</p>
+        <img src={logo} className='App-logo' alt="logo" />
+      </div>
       <MaterialReactTable
         columns={columns}
         data={data}
